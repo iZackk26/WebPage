@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-light bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand m-2 me-3" href="#">
                 <img src="./img/icon.png" width="30" height="30" class="d-inline-block align-top" id="logo">
@@ -34,18 +34,18 @@
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
+    color: #222725;
 }
-
 
 nav {
     padding: 30px;
-    color: #000000 !important;
+    background-color: #0D1B2A;
+    color: #FFFFFF !important;
 }
 
 nav a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #FFFFFF;
 }
 
 nav a.router-link-exact-active {
