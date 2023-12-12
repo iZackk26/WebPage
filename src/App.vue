@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand m-2 me-3" href="#">
-                <img src="./img/icon.png" width="30" height="30" class="d-inline-block align-top" id="logo">
+                <img src="./img/Wave.png" width="30" height="30" class="d-inline-block align-top" id="logo">
                 iZack's
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
