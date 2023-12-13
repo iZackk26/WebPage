@@ -51,33 +51,72 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <footer class="d-flex flex-warp justify-content-between alight-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex alight-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none 1h-1">
-                    <img src="../img/Wave.png" alt="" id="footer-img">
-                </a>
-                <span class="text-muted">© 2023 iZack</span>
+            <br>
+            <div class="Project-Desc">
+                Currently I'm working on several projects to learn new things, like databases, languages like Rust, and a
+                little bit of web development.
+                Here are the currently projects that I'm working on:
             </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3">
-                    <a class="text-muted" href="https://twitter.com/iZack26_">
-                        <img src="../img/Twitter.png" alt="" id="footer-img-right">
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a href="https://www.instagram.com/izackk_r/" target="-blank" class="text-muted">
-                        <img src="../img/Instagram.png" alt="" id="footer-img-right">
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a href="https://github.com/iZackk26" class="text-muted">
-                        <img src="../img/Github.png" alt="" id="footer-img-right">
-                    </a>
-                </li>
-            </ul>
-        </footer>
+            <br>
+            <h1 class="mb-3 mt-3" id="skills">Projects</h1>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <router-link to="/webstore">
+                            <img src="../img/OnlineShop.png" alt="OnlineShop" class="card-shop-img">
+                        </router-link>
+                        <div class="card-body">
+                            <h5 class="card-title">Online Web Store</h5>
+                            <p class="card-text">
+                                This is a project that I'm working on with a friend. We are creating a Website where you can
+                                buy a lot of products with small fees of importation and affordable for everyone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <router-link to="/rustcalculator">
+                            <img src="../img/Calculator.png" alt="" class="card-shop-img">
+                        </router-link>
+                        <div class="card-body">
+                            <h5 class="card-title">Rust Calculator and Tracker</h5>
+                            <p class="card-text">
+                                This app can allow you to calculte the tax and import rate of the products that you are
+                                going to buy on our webpage. As well I'm going to implement a Tracker system where you can
+                                track your packages
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer class="d-flex flex-warp justify-content-between alight-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex alight-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none 1h-1">
+                <img src="../img/Wave.png" alt="" id="footer-img">
+            </a>
+            <span class="text-muted">© 2023 iZack</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-muted" href="https://twitter.com/iZack26_">
+                    <img src="../img/Twitter.png" alt="" id="footer-img-right">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://www.instagram.com/izackk_r/" target="-blank" class="text-muted">
+                    <img src="../img/Instagram.png" alt="" id="footer-img-right">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://github.com/iZackk26" class="text-muted">
+                    <img src="../img/Github.png" alt="" id="footer-img-right">
+                </a>
+            </li>
+        </ul>
+    </footer>
 </template>
 
 <script lang="ts">
@@ -97,10 +136,22 @@ body {
     padding: 0;
 }
 
+.Project-Desc {
+    text-align: left;
+    font-size: 22px;
+}
+
 .card-img {
     width: 100%;
     height: 10em;
     object-fit: cover;
+}
+
+.card-shop-img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    margin-bottom: 12px;
 }
 
 #footer-img-right {
