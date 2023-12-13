@@ -18,6 +18,9 @@
                     <li class="nav-item">
                         <router-link class="nav-link" to="/about">About</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/setup">Set-Up</router-link>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -28,10 +31,10 @@
 </template>
 
 
-
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: Roboto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #222725;
