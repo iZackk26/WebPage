@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import SetUpView from '../views/SetUpView.vue'
 import WebStoreView from '../views/WebStoreView.vue'
 import RustCalculator from '../views/RustCalculator.vue'
+import Alienware from '../views/Alienware.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -33,7 +34,12 @@ const routes: Array<RouteRecordRaw> = [
     path: '/rustcalculator',
     name: 'RustCalculator',
     component: RustCalculator
-  }
+  },
+  {
+    path: '/alienware',
+    name: 'Alienware',
+    component: Alienware
+  },
 ]
 
 const router = createRouter({
