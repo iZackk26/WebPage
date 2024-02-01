@@ -67,7 +67,7 @@
                         </router-link>
                         <div class="card-body">
                             <h4 class="card-title"><b>Jieshop</b></h4>
-                            <p class="card-text">We are creating a Website where you canbuy a lot of products with small fees of importation and affordable for everyone.</p>
+                            <p class="card-text">We are creating a Website where you can buy a lot of products with small fees of importation and affordable for everyone.</p>
                         </div>
                     </div>
                 </div>
