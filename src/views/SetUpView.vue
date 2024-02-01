@@ -55,6 +55,7 @@
     align-items: center;
     width: 700px;
     height: 400px;
+    margin-top: 130px;
 }
 
 

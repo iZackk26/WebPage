@@ -5,6 +5,7 @@ import SetUpView from '../views/SetUpView.vue'
 import WebStoreView from '../views/WebStoreView.vue'
 import RustCalculator from '../views/RustCalculator.vue'
 import Alienware from '../views/Alienware.vue'
+import MusicView from '../views/MusicView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -39,6 +40,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/alienware',
     name: 'Alienware',
     component: Alienware
+  },
+  {
+    path: '/music',
+    name: 'MusicView',
+    component: MusicView
   },
 ]
 

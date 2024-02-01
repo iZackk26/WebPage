@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand m-2 me-3" href="#">
-                <img src="./img/Wave.png" width="30" height="30" class="d-inline-block align-top" id="logo">
+                <img src="./img/izack-logo.jpg" width="30" height="30" class="d-inline-block align-top" id="logo">
                 iZack's
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -16,10 +16,13 @@
                         <router-link class="nav-link" to="/">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/about">About</router-link>
+                        <router-link class="nav-link" to="/setup">Set-Up</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/setup">Set-Up</router-link>
+                        <router-link class="nav-link" to="/music">Music</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/about">About</router-link>
                     </li>
                 </ul>
             </div>
@@ -61,5 +64,6 @@ nav a.router-link-exact-active {
     height: 30px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 6px;
 }
 </style>

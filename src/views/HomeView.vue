@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-6" id="right-picture">
                     <a href="https://github.com/iZackk26">
-                        <img class="img-fluid" src="../img/Wave.png" id="picture" alt="Isaac's Profile Image">
+                        <img class="img-fluid" src="../img/izack-logo.jpg" id="picture" alt="Isaac's Profile Image">
                     </a>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                     <div class="card h-100">
                         <img src="../img/Cloud-Computing.png" alt="" class="card-img">
                         <div class="card-body">
-                            <h5 class="card-title">Cloud Computing</h5>
+                            <h5 class="card-title"><b>Cloud Computing</b></h5>
                             <p class="card-text">
                                 I have some experience with cloud computing. I have created scripts for uploading and
                                 downloading information to cloud databases such as Firebase and Google Cloud.
@@ -59,33 +59,15 @@
             </div>
             <br>
             <h1 class="mb-3 mt-3" id="skills">Projects</h1>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row rowcols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
                         <router-link to="/webstore">
-                            <img src="../img/OnlineShop.png" alt="OnlineShop" class="card-shop-img">
+                            <img class="card-img" src="../img/jieshop.jpg" alt="Skill-1">
                         </router-link>
                         <div class="card-body">
-                            <h5 class="card-title">Online Web Store</h5>
-                            <p class="card-text">
-                                This is a project that I'm working on with a friend. We are creating a Website where you can
-                                buy a lot of products with small fees of importation and affordable for everyone.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <router-link to="/rustcalculator">
-                            <img src="../img/Calculator.png" alt="" class="card-shop-img">
-                        </router-link>
-                        <div class="card-body">
-                            <h5 class="card-title">Rust Calculator and Tracker</h5>
-                            <p class="card-text">
-                                This app can allow you to calculte the tax and import rate of the products that you are
-                                going to buy on our webpage. As well I'm going to implement a Tracker system where you can
-                                track your packages
-                            </p>
+                            <h4 class="card-title"><b>Jieshop</b></h4>
+                            <p class="card-text">We are creating a Website where you canbuy a lot of products with small fees of importation and affordable for everyone.</p>
                         </div>
                     </div>
                 </div>
@@ -95,7 +77,7 @@
     <footer class="d-flex flex-warp justify-content-between alight-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex alight-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none 1h-1">
-                <img src="../img/Wave.png" alt="" id="footer-img">
+                <img src="../img/izack-logo.jpg" alt="" id="footer-img">
             </a>
             <span class="text-muted">© 2023 iZack</span>
         </div>
